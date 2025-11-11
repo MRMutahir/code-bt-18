@@ -1,4 +1,57 @@
+/* @font-face {
+  font-family: "myHeadingFont";
+  src: url("font/MomoSignature-Regular.ttf");
+  font-weight: normal; 
+  font-style: normal;
+}
+
 h1 {
-  color: rgba(39, 226, 245, 0);
-  background-color: blue;
+  font-family: "myHeadingFont";
+}
+
+p {
+  word-spacing: 10px;
+  letter-spacing: 40px;
+}
+
+#svg > img {
+  height: 100px;
+} */
+
+/* p {
+  text-indent: 200px;
+} */
+
+@font-face {
+  font-family: "myHeadingFont";
+  src: url("font/MomoSignature-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#centerDiv {
+  text-align: center;
+}
+
+#heading {
+  background: linear-gradient(
+    to right,
+    #73c8a9,
+    #373b44
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "myHeadingFont";
+  text-shadow: 5px 5px #558abb;
+}
+
+p {
+  text-shadow: 5px 10px 5px yellow;
 }
