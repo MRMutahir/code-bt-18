@@ -21,7 +21,7 @@
 // var getCity = prompt("enter city name");
 
 // var cleanestCities = ["Karachi", "Santa Fe", "Tucson", "Great Falls"];
-// console.log(cleanestCities[1]);
+// // console.log(cleanestCities[1]);
 // // console.log(getCity == cleanestCities);
 // for (var i = 0; i <= cleanestCities.length; i++) {
 //   if (getCity == cleanestCities[i]) {
@@ -34,9 +34,9 @@
 // console.log("code run after loop");
 
 // database
-var usersEmails = ["mutahir@gmail.com", "wahab@gmail.com", "sarim@gmail.com"];
+// var usersEmails = ["mutahir@gmail.com", "wahab@gmail.com", "sarim@gmail.com"];
 
-var usersPasswords = ["123", "456", "789"];
+// var usersPasswords = ["123", "456", "789"];
 
 // var getUserEmail = prompt("enter your email:");
 // var getUserPwd = prompt("enter your password:");
@@ -72,3 +72,13 @@ var usersPasswords = ["123", "456", "789"];
 // console.log(arr[0]);
 // console.log(arr[1]);
 // console.log(arr[2]);
+// var myName = prompt("enter name");
+// if (myName == "muhammad") {
+//   alert("user found");
+// } else {
+//   alert("not found 404");
+// }
+
+// var myName = "muhammad mutahir";
+// console.log(myName.length);
+// console.log(myName.toUpperCase());
