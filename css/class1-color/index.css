@@ -22,7 +22,7 @@ p {
   text-indent: 200px;
 } */
 
-@font-face {
+/* @font-face {
   font-family: "myHeadingFont";
   src: url("font/MomoSignature-Regular.ttf");
   font-weight: normal;
@@ -42,7 +42,7 @@ p {
     to right,
     #73c8a9,
     #373b44
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ); 
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -54,4 +54,49 @@ p {
 
 p {
   text-shadow: 5px 10px 5px yellow;
+} */
+
+/* #heading {
+  background: linear-gradient(
+    to right,
+    #00bf8f,
+    #001510
+  );
+  background-clip: text;
+  color: transparent;
+} */
+
+#heading::first-letter {
+  color: blue;
+  font-size: 200px;
+  text-transform: capitalize;
+  text-shadow: 10px 5px 10px grey;
+  /* font-family: "Josefin Sans", sans-serif;
+
+  font-weight: 900;
+  font-style: normal; */
+}
+
+/* #para::first-line {
+  text-decoration: underline dotted rgb(238, 0, 255);
+  text-transform: capitalize;
+} */
+
+/* a:link {
+  color: blue;
+  text-decoration: none;
+  font-size: 50px;
+} */
+
+/* li > a:link {
+  color: deeppink;
+  text-decoration: none;
+} */
+
+a:hover {
+  color: red;
+}
+
+input:active {
+  color: chartreuse;
 }
