@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic Form</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        #form_css {
+            border: 1px solid gray;
+            width: 400px;
+            height: 200px;
+            padding: 40px 10px;
+            border-radius: 10px;
+            margin: 200px auto;
+            text-align: center;
+            box-shadow: 10px 20px 8px gray;
+        }
+
+        #form_css>input {
+            width: 80%;
+            height: 20%;
+            border-radius: 10px;
+            border-color: darkgrey;
+            border-width: 1px;
+            border-style: solid;
+            font-size: 10px;
+            box-shadow: 4px 8px 8px gray;
+        }
+
+        #form_css>label {
+            font-family: "Overlock", sans-serif;
+            font-weight: 800;
+            font-style: normal;
+            font-size: 1em;
+            display: inline-block;
+            margin-bottom: 10px;
+            text-align: left;
+            color: red;
+        }
+
+        #btn {
+            width: 40% !important;
+            font-size: 18px !important;
+            background-color: rgb(255, 55, 0);
+            cursor: grab;
+        }
+
+
+        input:hover {
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form id="form_css" action="/submit_form.php" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <input type="submit" id="btn" value="Submit">
+    </form>
+
+</body>
+
+</html>
