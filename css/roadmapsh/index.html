@@ -23,8 +23,8 @@
         }
 
         #parent-nav {
-            text-align: center;
-            font-size: 1em;
+            display: flex;
+            justify-content: center;
         }
 
         .headinFont {
@@ -39,17 +39,50 @@
             text-transform: uppercase;
         }
 
-        .child-nav>ul>li {
-            display: inline-block;
-            margin: 20px 60px;
-            text-align: center;
+        .my-angular {
+            font-size: 12px;
+        }
+
+        .nav-conatiner {
+            width: 100%;
+            display: flex;
+            background-color: red;
+            justify-content: center;
+        }
+
+        .list-style-type-class {
+            list-style-type: none;
+            font-size: 20px;
+            margin: 5px 10px;
+        }
+
+        .nav-child-1 {
+            width: 20%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .nav-child-2 {
+            display: flex;
+            justify-content: space-between;
+            /* margin-left: 20px; */
+        }
+
+        /* .nav-child-2 {
+
+        } */
+
+        /* .child-nav>ul>li {
+
+    
             font-size: 20px;
         }
 
         .child-nav {
             background-color: red;
-        }
+        } */
 
+        /* 
         .logo-svg {
             width: 20px;
 
@@ -58,14 +91,6 @@
         .myamazon {
             font-size: 100px;
             color: red;
-        }
-
-        /* #raodmapsh-logo {
-            width: 20px;
-        }
-
-        #burger {
-            width: 20px;
         } */
     </style>
 </head>
@@ -109,8 +134,27 @@
         </ul>
     </div> -->
 
-    <i class="fa-brands fa-angular myicon"></i>
-    <i class="fa-brands fa-amazon myamazon"></i>
+    <div class="nav-conatiner">
+        <ul class="nav-child-1 list-style-type-class">
+            <li>
+                <i class="fa-brands fa-amazon myamazon"></i>
+            </li>
+            <li><i class="fa-brands fa-angular my-angular"></i></li>
+            <li>
+                Roadmaps
+            </li>
+            <li>
+                AI tutor
+            </li>
+            <li>
+                Upgrade pro
+            </li>
+        </ul>
+        <ul class="nav-child-2 list-style-type-class">
+            <li>Login</li>
+            <li>Sign up</li>
+        </ul>
+    </div>
 </body>
 
 </html>
