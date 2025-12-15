@@ -82,3 +82,6 @@
 // var myName = "muhammad mutahir";
 // console.log(myName.length);
 // console.log(myName.toUpperCase());
+
+
+var a = 2
