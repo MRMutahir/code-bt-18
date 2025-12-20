@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-color: #36454F;
+        }
+
+        .background-clolor {
+            /* background-color: black; */
+        }
+
+        .my-navbar {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .ng-nav-color {
+            background-color: black;
+            color: white;
+        }
+
+        .image-sec {
+            /* background-color: blueviolet;
+            height: 100vh; */
+        }
+
+        .content-sec {
+            /* background-color: rgb(13, 213, 220); */
+            /* height: 100vh; */
+        }
+
+        .myimage {
+            height: 90vh;
+        }
+
+        .content-sec {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            /* align-items: center; */
+            /* background-color: rebeccapurple; */
+        }
+
+        .heading span {
+            font-size: 88px;
+            color: white;
+        }
+
+        .line {
+            display: inline-block;
+            width: 75%;
+            height: 10px;
+            background-color: white;
+        }
+
+        .my-para {
+            color: white;
+            text-transform: lowercase;
+
+        }
+    </style>
+</head>
+
+<body class="background-clolor">
+    <div class="container-fluid">
+        <div class="row p-3 ng-nav-color">
+            <div class="col text-center">
+                <span class="h5">Muhammad Mutahir</span>
+            </div>
+            <div class="col text-center ">
+                <ul class="my-navbar">
+                    <li>Home</li>
+                    <li>Photo</li>
+                    <li>About Me</li>
+                    <li>Contact</li>
+                    <i class="fa-solid fa-burger"></i>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="image-sec col">
+                <img src="./profile image.jfif" class="img-fluid myimage" alt="">
+            </div>
+            <div class="content-sec col">
+                <div class="heading">
+                    <span class="h1">My
+                        <span class="line"></span> <br>Portfolio</span>
+                </div>
+                <div class="my-para">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sequi debitis quis
+                        quibusdam, ut
+                        nemo maxime quo eaque quia ipsa dolorem? Magni incidunt, ipsum iure non voluptatibus
+                        pariatur
+                        amet tempore?</p>
+                </div>
+                <div>
+                    <button type="button" class="border p-3">Base class</button>
+                    <button type="button" class="btn">Base class</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

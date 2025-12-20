@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bykea – Homepage Clone</title>
+    <style>
+        :root {
+            --green: #1dbf73;
+            --dark: #0b1320;
+            --gray: #6b7280;
+            --border: #e5e7eb;
+            --yellow: #fde047;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+            color: var(--dark);
+            background: #fff;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit
+        }
+
+        /* NAVBAR */
+        header {
+            border-bottom: 1px solid var(--border);
+            background: #fff;
+        }
+
+        .navbar {
+            max-width: 1200px;
+            margin: auto;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: 800;
+            color: var(--green);
+        }
+
+        .nav-links a {
+            margin-left: 24px;
+            font-weight: 600;
+            color: #374151;
+        }
+
+        /* TABS */
+        .tabs {
+            max-width: 1200px;
+            margin: 24px auto 0;
+            padding: 0 16px;
+            display: flex;
+            gap: 32px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .tab {
+            padding: 12px 0;
+            font-weight: 700;
+            color: #6b7280;
+            border-bottom: 3px solid transparent;
+        }
+
+        .tab.active {
+            color: var(--green);
+            border-color: var(--green);
+        }
+
+        /* HERO */
+        .hero {
+            max-width: 1200px;
+            margin: auto;
+            padding: 56px 16px;
+            display: grid;
+            grid-template-columns: 1.1fr .9fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        @media(max-width:900px) {
+            .hero {
+                grid-template-columns: 1fr
+            }
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            margin: 0 0 16px;
+            color: var(--green);
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: var(--gray);
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 20px;
+            font-weight: 700;
+            color: var(--green);
+        }
+
+        /* IMAGE AREA */
+        .hero-visual {
+            background: var(--yellow);
+            border-radius: 28px;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .hero-visual img {
+            max-width: 100%;
+        }
+
+        /* SERVICES */
+        .services {
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px 16px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 24px;
+        }
+
+        .service {
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 24px;
+            transition: .2s ease;
+        }
+
+        .service:hover {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+        }
+
+        .service h3 {
+            margin: 0 0 8px;
+            color: var(--green);
+        }
+
+        .service p {
+            color: var(--gray)
+        }
+
+        /* FOOTER */
+        footer {
+            background: #0b1320;
+            color: #cbd5f5;
+            margin-top: 64px;
+            padding: 48px 16px;
+        }
+
+        .footer {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+        }
+
+        footer h4 {
+            color: #fff;
+            margin-bottom: 12px
+        }
+
+        footer a {
+            display: block;
+            margin: 6px 0;
+            color: #cbd5f5
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">bykea</div>
+            <div class="nav-links">
+                <a href="#">Ride</a>
+                <a href="#">Delivery</a>
+                <a href="#">Shops</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="tabs">
+        <div class="tab active">Ride</div>
+        <div class="tab">Delivery</div>
+        <div class="tab">Shops</div>
+    </div>
+
+    <section class="hero">
+        <div>
+            <h1>Ride</h1>
+            <p>
+                Bykea offers rides on motorbikes, rickshaws, and cars at the lowest fares in
+                Karachi, Lahore and Islamabad. No matter what your destination is, a Bykea
+                is always there for you. Let’s get moving.
+            </p>
+            <a class="read-more" href="#">Read More →</a>
+        </div>
+        <div class="hero-visual">
+            <img src="ride-vehicles.png" alt="Bykea Ride">
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="service">
+            <h3>Ride</h3>
+            <p>Bike, Rickshaw & Car rides at affordable fares.</p>
+        </div>
+        <div class="service">
+            <h3>Delivery</h3>
+            <p>Fast deliveries for parcels, documents & groceries.</p>
+        </div>
+        <div class="service">
+            <h3>Shops</h3>
+            <p>Order food, groceries and medicines nearby.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div>
+                <h4>Bykea</h4>
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+                <a href="#">Contact</a>
+            </div>
+            <div>
+                <h4>Services</h4>
+                <a href="#">Ride</a>
+                <a href="#">Delivery</a>
+                <a href="#">Shops</a>
+            </div>
+            <div>
+                <h4>Download App</h4>
+                <a href="#">Android</a>
+                <a href="#">iOS</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
