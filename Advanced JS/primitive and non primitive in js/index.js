@@ -91,3 +91,9 @@
 //   let a = 3;
 // }
 // add()
+
+console.log(a) ;
+let a = 4;
+console.log(a) ;
+
+
