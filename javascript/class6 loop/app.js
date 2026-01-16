@@ -83,5 +83,38 @@
 // console.log(myName.length);
 // console.log(myName.toUpperCase());
 
+// var a = 2
 
-var a = 2
+// let count = 0;
+
+// while (count < 5) {
+//   console.log("Count is: " + count);
+//   count++;
+// }
+
+// for (let i = 0; i < 5; i++) {
+//   // Code to be executed 5 times (i values: 0, 1, 2, 3, 4)
+//   console.log(i);
+// }
+
+// var i = 0;
+
+// do {
+//   console.log("The value of i is: " + i);
+//   i++;
+// } while (i <= 5);
+
+// do {} while (i < 5);
+
+// function name() {}
+// const name = () => {};
+
+// var myNum = 10;
+
+// for (let index = 0; index < myNum; index++) {
+//   console.log(index);
+// }
+
+// for (var my = 0; my < myNum; my++) {
+//   console.log(my);
+// }
