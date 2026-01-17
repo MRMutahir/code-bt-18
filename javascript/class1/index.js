@@ -48,36 +48,3 @@
 // var nAme = 'h',0
 
 // console.log("o jani kiya hal hen", 45, true, false, {}, []);
-
-// var meraName = "My name is Muhammad Mutahir";
-// var Meraname = "ye mera name hen";
-// var meraname = `Muhammad Mutahir`;
-
-// console.log(meraName);
-// console.log(Meraname);
-// console.log(meraname);
-
-// var firstname = "Muhammad";
-
-// var lastname = "Mutahir";
-
-// var mySpace = " ";
-
-// var fullName = firstname + mySpace + lastname;
-
-// console.log(fullName);
-
-// console.log("fullname", 52, {}, []);
-
-// var 2name = 12;
-// console.log(myNumber);
-
-// Naming Conventions (for readability)
-// Camel Case: myVariableName (common in JavaScript/Java).
-// Pascal Case: MyVariableName (common in C#).
-// Snake Case: my_variable_name (common in Python/C).
-
-// var full_name = "Muhammad Mutahir";
-// alert(full_name);
-
-
