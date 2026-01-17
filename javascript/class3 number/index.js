@@ -166,3 +166,54 @@
 
 // var mySum = num1 + num2
 // console.log("Sum is : >>>> ", mySum);
+
+// var myNum = 2;
+// // myNum++;
+// console.log(myNum++);\
+
+// var a = 3;
+// console.log(a++);
+// console.log(a);
+
+// var a = 3;
+
+// var b = a++;
+
+// var c = b++;
+// c++;
+
+// console.log("a >>>>>>>>>>>>>>", a);
+// console.log("b >>>>>>>>>>>>>>", b);
+// console.log("c >>>>>>>>>>>>>>", c);
+
+// var a = 5;
+// a++; // 5
+// var b = a++; // 6
+
+// console.log(b);
+// console.log(a);
+
+// var a = 5;
+// var b = a++ + a++;
+// console.log(b);
+// console.log(a);
+
+//5
+
+// var a = 0; //0
+// a++; //0
+// a++; //1
+// a++; //2
+// a++ + 1;
+
+// console.log(a);
+
+// var b = 2;
+
+// b++ + 1; // 3
+
+// b++ + 5;
+
+// b++ + b++;
+
+// console.log(b++);
