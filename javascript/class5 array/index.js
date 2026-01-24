@@ -54,10 +54,60 @@
 
 // var db = ["Saab", "Volvo", "BMW", "Toyota", "Tesla", "GWM"];
 
-
 // var newEle = cars.slice(2, 4);
 
 // // var newEle = cars.splice(2,2);
 
 // console.log("cars >>>>>>>>>>", cars);
 // console.log("newEle >>>>>>>>>>>> ", newEle);
+
+// var users = ["ali", "osman", "sharjeel"];
+// var user = [
+//   "ali" /*string*/,
+//   21 /*Number*/,
+//   true /*boolen*/,
+//   ["HTML", "CSS", "JAVASCRIPT"] /*Array > Object*/,
+// ];
+// var users = ["ali", "osman", "sharjeel"];
+// console.log(user);
+
+// var users = ["ali", "osman", "sharjeel"];
+// console.log(users);
+// var user1 = users[0];
+// var user2 = users[1];
+// var user3 = users[2];
+// var user4 = users[3];
+// console.log(user1);
+// console.log(user2);
+// console.log(user3);
+// console.log(user4);
+
+// var users = [1, 2, 5];
+// // users.push("10");
+// // users.unshift("100");
+// // console.log(users);
+
+// // users.pop();
+// // users.shift();
+// console.log(users);
+
+// slice and splice in javascript
+
+// slice  >>>>>>>>>>>>>>>>>>
+// var users = [4, 2, 5];
+// var newArr = users.slice(0, 2);
+
+// // console.log(newArr);
+// // console.log("users >>>>>", users);
+
+// // splice  >>>>>>>>>>>>>>
+
+// // Create an Array
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// // At position 2, add "Lemon" and "Kiwi":
+// // array.splice(startIndex, deleteCount, item1, item2, ...);
+
+// fruits.splice(1);
+
+// console.log(fruits);

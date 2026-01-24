@@ -37,3 +37,72 @@
 // num + 2;
 
 // console.lo(num);
+// var username = `Muhammad Mutahir`;
+
+// // es5
+// var fullMessage =
+//   "Hello, " + username + "! Welcome                   to the JavaScript world.";
+// console.log(fullMessage);
+
+// // es6
+// var fullMessage = `Hello, ${username}! Welcome                   to the JavaScript world.`;
+// console.log(fullMessage);
+
+// var getNumber = prompt("Enter a number");
+// // console.log(typeof getNumber);
+
+// var mySum = Number(getNumber) + 5;
+// console.log(mySum);
+
+// var myName = "Muhammad Mutahir";
+// var age = 21;
+// var isStudent = true;
+// console.log("Name: ", typeof myName);
+// console.log("Age: ", typeof age);
+// console.log("Is Student: ", typeof isStudent);
+
+// var firstnumber = 10;
+// var secondnumber = 20;
+
+// var sum = firstnumber + secondnumber;
+// var difference = secondnumber - firstnumber;
+// var product = firstnumber * secondnumber;
+// var quotient = secondnumber / firstnumber;
+// var modulus = secondnumber % firstnumber;
+// console.log("Sum: ", sum);
+// console.log("Difference: ", difference);
+// console.log("Product: ", product);
+// console.log("Quotient: ", quotient);
+// console.log("Modulus: ", modulus);
+
+// var a = 5;
+// console.log(a++);
+// console.log(a);
+
+// var a = 5;
+// console.log(a--);
+// console.log(a);
+
+// console.log(--a);
+// console.log(++a);
+
+// var a = false;
+// if (a) {
+//   console.log("Value is true");
+// } else {
+//   console.log("Value is false");
+// }
+
+var getNumber = Number(prompt("Enter a number"));
+
+// console.log(getNumber);
+
+var changeNumber = getNumber % 2;
+
+// console.log(changeNumber);
+
+if (changeNumber === 0) {
+  console.log("The number is even");
+} else {
+  console.log("The number is odd");
+}
