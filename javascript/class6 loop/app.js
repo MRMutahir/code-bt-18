@@ -118,3 +118,198 @@
 // for (var my = 0; my < myNum; my++) {
 //   console.log(my);
 // }
+
+// for (initialization; condition; afterthought) {
+//   // code block to be executed
+// }
+
+// for loop
+
+// for (var i = 0; i < 5; i++) {
+//   console.log(`The current number is: ${i}`);
+//   if (i == 2) {
+//     continue;
+//   }
+// }
+
+// while loop
+// var i = 0;
+// while (i < 5) {
+//   console.log("The number is " + i);
+//   i++; // Increment the counter
+// }
+
+// do while loop
+// var password;
+// do {
+//   password = prompt("Enter your password:");
+// } while (password !== "secret");
+// console.log("Access granted.");
+
+// for (var mutahir = 0; mutahir < 5; mutahir++) {
+//   console.log(mutahir);
+// }
+
+// Creating an array with 100 user names
+// var userNames = [
+//   "Alice",
+//   "Bob",
+//   "Charlie",
+//   "David",
+//   "Eve",
+//   "Frank",
+//   "Grace",
+//   "Hannah",
+//   "Ivy",
+//   "Jack",
+//   "Kara",
+//   "Leo",
+//   "Mia",
+//   "Nina",
+//   "Oscar",
+//   "Paul",
+//   "Quinn",
+//   "Rita",
+//   "Sam",
+//   "Tina",
+//   "Uma",
+//   "Vera",
+//   "Will",
+//   "Xander",
+//   "Yara",
+//   "Zane",
+//   "Aiden",
+//   "Bella",
+//   "Caden",
+//   "Diana",
+//   "Elliot",
+//   "Fiona",
+//   "Gavin",
+//   "Holly",
+//   "Isaac",
+//   "Jade",
+//   "Kyle",
+//   "Lena",
+//   "Mason",
+//   "Noah",
+//   "Olivia",
+//   "Perry",
+//   "Quincy",
+//   "Rachel",
+//   "Steve",
+//   "Tracy",
+//   "Ursula",
+//   "Vince",
+//   "Walter",
+//   "Xena",
+//   "Yasmine",
+//   "Zach",
+//   "Aaron",
+//   "Blake",
+//   "Clara",
+//   "Dylan",
+//   "Evan",
+//   "Felicity",
+//   "Gabriel",
+//   "Harrison",
+//   "Iris",
+//   "Jackie",
+//   "Kevin",
+//   "Luca",
+//   "Maya",
+//   "Nolan",
+//   "Opal",
+//   "Piper",
+//   "Quinn",
+//   "Rose",
+//   "Sean",
+//   "Toby",
+//   "Ursula",
+//   "Veronica",
+//   "Wendy",
+//   "Xander",
+//   "Yvonne",
+//   "Zane",
+//   "Adam",
+//   "Bella",
+//   "Caden",
+//   "Derek",
+//   "Eva",
+//   "Felix",
+//   "George",
+//   "Hannah",
+//   "Isla",
+//   "Jake",
+//   "Kara",
+//   "Liam",
+//   "Megan",
+//   "Noelle",
+//   "Oliver",
+//   "Peyton",
+//   "Quinn",
+//   "Riley",
+//   "Sophie",
+//   "Tyler",
+//   "Ulysses",
+//   "Vanessa",
+//   "Wade",
+//   "Xander",
+//   "Yara",
+//   "Zane",
+//   "Andrew",
+//   "Beatrice",
+//   "Chloe",
+//   "Dante",
+//   "Emma",
+// ];
+
+// console.log(userNames);
+
+// h2Create.innerText = "Hi";
+
+// body.appendChild(h2Create);
+
+// for (var i = 0; i <= userNames.length; i++) {
+//   var h2Create = document.createElement("h2");
+//   var body = document.querySelector("body");
+//   h2Create.innerText = userNames[i];
+//   body.appendChild(h2Create);
+// }
+
+// for (var i = 0; i < firstNames.length; i++) {
+//   console.log(`${firstNames[i]} ${lastNames[i]}`);
+// }
+
+// for (var i = 0; i > 3; i++) {
+//   // getlist = prompt("for day");
+//   for (var a = 0; a < 3; a++) {
+//     getlist = prompt("for day");
+//     Total = Total + getlist;
+//   }
+//   console.log(Total);
+// }
+
+// var firstNames = ["Muhammad", "Ali"];
+// var lastNames = ["Mutahir", "Raza"];
+// for (var index = 0; index < firstNames.length; index++) {
+//   console.log(firstNames[index]);
+//   for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+
+//   }
+// }
+
+// for (var index = 0; index <= 5; index++) {
+//   console.log("outer loop", index);
+//   for (let a = 0; a <= 2; a++) {
+//     console.log("inner loop", a);
+//   }
+// }
+// var users = ["Mutahir", "Owais"];
+// var subject = ["html", "css", "javascript"];
+// for (var a = 0; a < users.length; a++) {
+//   // console.log(users[a]);
+//   for (var index = 0; index < subject.length; index++) {
+//     console.log(`${users[a]} is k ye ye subject hen ${subject[index]}`);
+//   }
+// }
