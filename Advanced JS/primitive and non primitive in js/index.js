@@ -92,8 +92,8 @@
 // }
 // add()
 
-console.log(a) ;
-let a = 4;
-console.log(a) ;
+// console.log(a) ;
+// let a = 4;
+// console.log(a) ;
 
 
