@@ -12,3 +12,11 @@ const getPost = () => {
 }
 
 getPost();
+
+
+
+// fetch(url)
+// ➡️ Promise<Response>
+// status (200, 404…)
+// headers
+// body (ReadableStream ❗)
