@@ -1,8 +1,11 @@
-// function add(saboor) {
-//   console.log("addd");
+function add(saboor) {
+  console.log("addd");
+  saboor();
+}
 
-//   saboor();
-// }
+add(function () {
+  console.log("mera call back");
+});
 
 // add(() => {
 //   console.log("sub");
