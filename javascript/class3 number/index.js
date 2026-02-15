@@ -217,3 +217,11 @@
 // b++ + b++;
 
 // console.log(b++);
+
+
+
+// 1️⃣ parseInt()
+parseInt("123")      // 123
+parseInt("123.45")   // 123
+parseInt("123px")    // 123
+parseInt("px123")    // NaN
