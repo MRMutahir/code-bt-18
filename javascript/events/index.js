@@ -13,3 +13,9 @@
 // btn.addEventListener("click", function () {
 //   img.src = `${myImgNumber + 1}.jpeg`;
 // });
+
+
+
+// function popup(message = 'Hello') {
+//     alert(message);
+// }
