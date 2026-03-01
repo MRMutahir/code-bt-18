@@ -46,14 +46,57 @@
 // myDate();
 // console.log(myTwo);
 
-function MyDate(val1) {
-  var mereDate = new Date();
-  console.log(mereDate, val1);
-}
+// function MyDate(val1) {
+//   var mereDate = new Date();
+//   console.log(mereDate, val1);
+// }
 
-function MyNumber(m,a) {
-  console.log(m);
-  console.log(a);
-  console.log(10);
-}
-MyNumber(MyDate(20),52);
+// function MyNumber(m,a) {
+//   console.log(m);
+//   console.log(a);
+//   console.log(10);
+// }
+// MyNumber(MyDate(20),52);
+
+
+// function currency(amount = 10) {
+//   console.log(amount)
+//   const usdRate = 280
+//   const res = usdRate * amount
+//   console.log(res)
+// }
+
+// currency()
+
+
+
+// // console.log(new Date().getDay())
+// const role = 'USER'
+
+// switch (role) {
+//   case 'Admin':
+//     console.log('FULL ACESS DEDO')
+//     break
+//   case "USER":
+//     console.log('LIMITED ACCESS DEDO')
+//     break
+//   default:
+//     console.log("kxh bhi nh hen is value ka")
+// }
+
+
+// let input = 0
+// while () {
+
+// }
+
+
+// do {
+//   console.log("Hello, " + input);
+//   input++
+// } while (input <= 5); // Note the semicolon here
+
+/**
+ * 
+ * 
+ */

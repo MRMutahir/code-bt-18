@@ -127,3 +127,40 @@
 // addUser(getKey, getUserName, getUserEmail);
 
 // console.log(myObj);
+
+// const person = {
+//     name: "John",
+//     age: 30,
+//     helloMe: function greet() {
+//         console.log(`Hello, my name is Muhammad`);
+//     }
+// };
+
+// console.group(person)
+
+// const a = {
+//     name: 'Muhammad',
+//     age: 22,
+//     email: 'hello@',
+//     subject: ['HTML', "CSS", "JS"],
+//     hello: function greet() {
+//         console.log('hi')
+//     },
+// }
+
+// console.log()
+
+
+const person = {
+    name: "John",
+    age: 22,
+    sayHello: function () {
+        console.log(`Hello, I'm ${name}`);
+    }
+};
+
+person.sayHello();
+
+
+// console.log(this)
+
